@@ -1,0 +1,8 @@
+body {
+    font-family: "Roboto Mono", monospace !important;
+}
+
+#new-task-submit {
+    background: linear-gradient(to right, #EC4899, #8B5CF6);
+    border: none;
+}
