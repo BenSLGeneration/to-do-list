@@ -1,8 +1,23 @@
 body {
-    font-family: "Roboto Mono", monospace !important;
+  font-family: "Roboto Mono", monospace !important;
 }
 
 #new-task-submit {
-    background: linear-gradient(to right, #EC4899, #8B5CF6);
-    border: none;
+  background: linear-gradient(to right, #ec4899, #8b5cf6);
+  border: none;
 }
+
+.bg-edit-hover:hover {
+  background-color: #0A58CA !important;
+  cursor: pointer;
+}
+
+.bg-delete-hover:hover {
+  background-color: #B02A37 !important;
+  cursor: pointer;
+}
+
+.fixed-size {
+    width: 40px; /* Ancho fijo */
+    height: 40px; /* Alto fijo */
+  }
